@@ -96,11 +96,11 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Name",
-            information: "Muhammad Hamza",
+            information: "Mridul Vij",
           ),
           const AboutMeData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "mridulvig2001@gmail.com",
           ),
           Space.y!,
           OutlinedButton(
@@ -111,20 +111,20 @@ class AboutMobile extends StatelessWidget {
                     : openURL(StaticUtils.resume);
               }),
           Space.y!,
-          Wrap(
-              alignment: WrapAlignment.center,
-              crossAxisAlignment: WrapCrossAlignment.center,
-              children: WorkUtils.logos
-                  .asMap()
-                  .entries
-                  .map(
-                    (e) => CommunityIconBtn(
-                      icon: e.value,
-                      link: WorkUtils.communityLinks[e.key],
-                      height: WorkUtils.communityLogoHeight[e.key],
-                    ),
-                  )
-                  .toList()),
+          // Wrap(
+          //     alignment: WrapAlignment.center,
+          //     crossAxisAlignment: WrapCrossAlignment.center,
+          //     children: WorkUtils.logos
+          //         .asMap()
+          //         .entries
+          //         .map(
+          //           (e) => CommunityIconBtn(
+          //             icon: e.value,
+          //             link: WorkUtils.communityLinks[e.key],
+          //             height: WorkUtils.communityLogoHeight[e.key],
+          //           ),
+          //         )
+          //         .toList()),
         ],
       ),
     );

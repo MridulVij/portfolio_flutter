@@ -9,7 +9,9 @@ void openURL(String url) => launchUrl(
 final kTools = [
   "Flutter",
   "Dart",
-  "Python",
-  "Java",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
   "C++",
+  "React.js"
 ];

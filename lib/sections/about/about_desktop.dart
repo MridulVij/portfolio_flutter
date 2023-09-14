@@ -102,11 +102,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Name",
-                                information: "Muhammad Hamza",
+                                information: "Mridul Vij",
                               ),
                               AboutMeData(
                                 data: "Age",
-                                information: "24",
+                                information: "22",
                               ),
                             ],
                           ),
@@ -116,11 +116,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "hamza.6.shakeel@gmail.com",
+                                information: "mridulvig2001@gmail.com",
                               ),
                               AboutMeData(
                                 data: "From",
-                                information: "Attock, PK",
+                                information: "Haryana, INDIA",
                               ),
                             ],
                           ),
@@ -141,21 +141,21 @@ class AboutDesktop extends StatelessWidget {
                             ),
                           ),
                           Space.x1!,
-                          Container(
-                            color: Colors.grey[900]!,
-                            width: AppDimensions.normalize(30),
-                            height: AppDimensions.normalize(0.5),
-                          ),
-                          ...WorkUtils.logos.asMap().entries.map(
-                                (e) => Expanded(
-                                  child: CommunityIconBtn(
-                                    icon: e.value,
-                                    link: WorkUtils.communityLinks[e.key],
-                                    height:
-                                        WorkUtils.communityLogoHeight[e.key],
-                                  ),
-                                ),
-                              )
+                          // Container(
+                          //   color: Colors.grey[900]!,
+                          //   width: AppDimensions.normalize(30),
+                          //   height: AppDimensions.normalize(0.5),
+                          // ),
+                          // ...WorkUtils.logos.asMap().entries.map(
+                          //       (e) => Expanded(
+                          //         child: CommunityIconBtn(
+                          //           icon: e.value,
+                          //           link: WorkUtils.communityLinks[e.key],
+                          //           height:
+                          //               WorkUtils.communityLogoHeight[e.key],
+                          //         ),
+                          //       ),
+                          //     )
                         ],
                       ),
                     ],

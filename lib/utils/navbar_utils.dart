@@ -4,7 +4,7 @@ class NavBarUtils {
   static const List<String> names = [
     'HOME',
     'ABOUT',
-    'SERVICES',
+    // 'SERVICES',
     'PROJECTS',
     'CONTACT',
   ];
@@ -12,7 +12,7 @@ class NavBarUtils {
   static const List<IconData> icons = [
     Icons.home,
     Icons.person,
-    Icons.work,
+    // Icons.work,
     Icons.build,
     Icons.settings,
     Icons.contact_page,

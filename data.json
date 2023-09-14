@@ -1,37 +1,30 @@
 {
-    "name": "Muhammad Hamza",
-    "email": "hamza@mhmz.dev",
+    "name": "Mridul Vij",
+    "email": "mridulvij2001@gmail.com",
     "subtitles": [
         "Flutter Developer",
-        "Technical Writer",
-        "UI/UX Designer"
+        "Youtuber",
+        "Founder",
+        "Explorer"
     ],
-    "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
-    "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
+    "blackWhitePhotoURL": "",
+    "coloredPhotoURL": "",
     "socialLinks": [
         {
-            "platform": "facebook",
-            "url": "https://facebook.com/mhmzdev"
-        },
-        {
             "platform": "instagram",
-            "url": "https://instagram.com/mhmzdev"
+            "url": "https://www.instagram.com/mvismad_official/"
         },
         {
             "platform": "twitter",
-            "url": "https://twitter.com/mhmzdev"
+            "url": "https://twitter.com/mridul_vij_?t=twQyYMj99sO6lWzh8IOmyA&s=08"
         },
         {
             "platform": "linkedin",
-            "url": "https://linkedin.com/in/mhmzdev"
+            "url": "https://www.linkedin.com/in/mridul-vij-31969b160/"
         },
         {
             "platform": "github",
-            "url": "https://github.com/mhmzdev"
-        },
-        {
-            "platform": "medium",
-            "url": "https://mhamzadev.medium.com/"
+            "url": "https://github.com/MridulVij"
         }
     ],
     "aboutMeHeadline": "I'm Muhammad Hamza, a Flutter developer, Technical Writer and UI/UX Designer.",
@@ -39,10 +32,7 @@
     "technologies": [
         "Flutter",
         "Dart",
-        "Python",
-        "Java",
-        "C++",
-        "Flask"
+        ""
     ],
     "services": [
         {
